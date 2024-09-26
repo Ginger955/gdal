@@ -1,6 +1,8 @@
 module github/com/Ginger955/gdal/examples/translate
 
-go 1.13
+go 1.22.3
+
+toolchain go1.23.1
 
 replace github/com/Ginger955/gdal => ../..
 
